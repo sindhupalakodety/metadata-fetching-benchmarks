@@ -2,7 +2,7 @@ import time
 import ray
 from ray.data._internal.execution.util import memory_string
 
-DATASET_URI = "s3://ray-benchmark-data/parquet/128MiB-file/1TiB/85_008171_000000.parquet"
+DATASET_URI = "s3://ray-benchmark-data/parquet/128MiB-file/1TiB/"
 
 def benchmark(ds_factory):
     start_time = time.time()
